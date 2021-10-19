@@ -1,0 +1,11 @@
+
+datasource db {
+  provider = "sqlite"
+  url = "file:./dev.db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+// client secret 2e7844075b570b05d4d12cdc0cd08602493cde2f
